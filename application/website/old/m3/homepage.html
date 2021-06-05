@@ -1,0 +1,146 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="CSS/styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<div class="col-md-12">
+<a class="navbar-brand" href="homepage.html"><img src="icon_images/logo.png" Alt="logo"></a>
+<h2>Welcome Daniel Tomasevich,<a href="Index_Page.html">Logout</a></h2>
+</div>
+</nav>
+</div>
+<div class="container">
+<div class="row">
+<!---Start Information ---->
+<div class="col-md-3">
+<div class="col-sm-12">
+<img src="icon_images/61205.svg" Alt="Account">
+<h4><a href="account_info_professor.html">Account</a></h4>
+</div>
+<div class="col-sm-12">
+<img src="icon_images/814201.svg" Alt="Update">
+<h4><a href="Update_Availability.html">Update</a></h4>
+</div>
+<div class="col-sm-12 Calendar">
+<img src="icon_images/1571653.svg" Alt="Calendar">
+<h4><a href="Professor_Calander.html">Calendar</a></h4>
+</div>
+<div class="col-sm-12 Inbox">
+<img src="icon_images/1602840.svg" Alt="Inbox">
+<h4><a href="inbox.html">Inbox</a></h4>
+</div>
+<div class="col-sm-12 Help">
+<img src="icon_images/1662046.svg" Alt="Help">
+<h4><a href="help.html">Help</a></h4>
+</div>
+</div>
+<!---End Information ---->
+<!--Start Account Information--->
+<div class="col-md-8">
+<h1>Search for your Professor</h1>
+<hr>
+<hr>
+<!---search satrt --->
+<head>
+<meta charset="UTF-8">
+<title>GatorDater Professor Lookup</title>
+<style type="text/css">
+body{
+    font-family: Arail, sans-serif;
+}
+/* Formatting search box */
+.search-box{
+width: 300px;
+position: relative;
+left: 30%;
+top: 50%;
+display: inline-block;
+    font-size: 14px;
+}
+.search-box input[type="text"]{
+height: 32px;
+padding: 5px 10px;
+border: 1px solid #CCCCCC;
+    font-size: 14px;
+}
+.result{
+position: absolute;
+    z-index: 999;
+top: 100%;
+left: 0;
+}
+.search-box input[type="text"], .result{
+width: 100%;
+    box-sizing: border-box;
+}
+/* Formatting result items */
+.result p{
+background: #ffffff;
+margin: 0;
+padding: 7px 10px;
+border: 1px solid #CCCCCC;
+    border-top: none;
+cursor: pointer;
+}
+.result p:hover{
+background: #f2f2f2;
+}
+</style>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript">
+var username;
+
+$(document).ready(function(){
+                  $('.search-box input[type="text"]').on("keyup input", function(){
+                                                         /* Get input value on change */
+                                                         var inputVal = $(this).val();
+                                                         var resultDropdown = $(this).siblings(".result");
+                                                         if(inputVal.length){
+                                                         $.get("vp/backend-search.php", {term: inputVal}).done(function(data){
+                                                                                                            // Display the returned data in browser
+                                                                                                            resultDropdown.html(data);
+                                                                                                            });
+                                                         } else{
+                                                         resultDropdown.empty();
+                                                         }
+                                                         });
+                  
+                  // Set search input value on click of result item
+                  $(document).on("click", ".result p", function(){
+                                 $(this).parents(".search-box").find('input[type="text"]').val($(this).text());
+                                 //sets search field val
+                                 
+                                 $(this).parent(".result").empty();
+                                 //clears dropdown
+                                 username = $(this).text().replace(/\s/g,'');
+                                 
+                                 window.open("vp/user-page.php?user="+username);
+                                 
+                                 
+                                 });
+                  });
+</script>
+</head>
+<body>
+<p>
+</p>
+<div class="search-box">
+<input type="text" autocomplete="off" placeholder="Start Typing Professor Name" />
+<div class="result"></div>
+</div>
+</body>
+</html>
+<!---search end --->
+</div>
+</div>
+</div>
+<!---Name end --->
+</body>
+</html>

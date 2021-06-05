@@ -1,0 +1,78 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="CSS/styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  
+  <style>
+	body{
+		font-size: 14px;
+	}
+  </style>
+</head>
+<body>
+<div class="container-fluid" style='height: 65px !important; padding-left: 0%; max-height: 65px'>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark" style='padding-left: 0%'>
+			<div class="col-md-12" style='padding-left: 0%'>
+				<a style='padding-top: 22px; margin-bottom:-3px' class="navbar-brand" href="landing_page.html"><img style='padding-left: 0%; max-height: 55px' src="icon_images/logo.png" Alt="logo"></a>
+			</div>
+	</nav>
+</div>
+
+
+<div class="container col-xl-12 col-lg-12 col-md-10 col-sm-10 col-12 Create" style='font-size:17px'>
+    <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" id="account">
+            <h3>Create Account</h3><hr><hr>
+            <form action="create_user.php" method="post">
+				 <div class="row">
+                <div class="col-sm-2">Name</div>
+                <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12"><input type="text" Name="Name" class="form-control"><i class="fa fa-user-circle-o" aria-hidden="true"></i>
+<br></div>
+				</div>
+                
+				<div class="row">
+                <div class="col-sm-2">Email</div>
+                <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12"><input type="text" Name="Email" class="form-control"><br></div>
+                </div>
+				
+				<div class="row">
+                <div class="col-sm-2">Are You</div>
+                <div class="col-lg-10 col-xl-10 col-md-10 col-sm-12 col-12"><select Name="Type" class="form-control">
+					<option Value ="Student">Student</option>
+                    <option Value ="Professor">Professor</option>
+                </select><br></div>
+                </div>
+				
+				<div class="row">
+                <div class="col-sm-2">Major</div>
+                <div class="col-lg-10 col-xl-10 col-md-10 col-sm-12 col-12"><input type="text" Name="Major" class="form-control"><br></div>
+				</div>
+                
+				<div class="row">
+                <div class="col-sm-2">Password</div>
+                <div class="col-lg-10 col-xl-10 col-md-10 col-sm-12 col-12"><input type="Password" Name="Password" class="form-control"><br></div>
+                </div>
+				
+				<div class="row">
+                <div class="col-sm-2">Confirm Password</div>
+                <div class="col-lg-10 col-xl-10 col-md-10 col-sm-12 col-12"><input type="Password" Name="ConfirmPassword" class="form-control"><br></div>
+				</div>
+				
+				
+				<button class="col-xl-4 col-lg-4 col-md-4 col-sm-8 col-8 offset-xl-4 offset-lg-4 offset-md-4 offset-sm-2 offset-2" onclick="window.location.href = '#';" id="btnCreateAccount">Create Account</button> 
+				<div class="row">
+                <div class="col-lg-6 col-xl-6 col-md-8 col-sm-8 col-8 offset-xl-3 offset-lg-3 offset-md-2 offset-sm-2 offset-2" style='text-align: center;'>By clicking "Create Account" you agree to the Terms and Privacy Policy<br></div>
+				</div>
+				
+                </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,687 @@
+/* Start body */
+nav.navbar.navbar-expand-sm.bg-dark.navbar-dark {
+    background-color: #330033 !important;
+}
+body {
+    background-color: #eeeeee  !important;
+}
+/* End body */
+.Create {
+    width: 888px !important;
+}
+/* Nav start*/
+.navbar-brand {
+    float: left;
+    height: 3px !important;
+    padding: 0px 15px !important;
+    font-size: 14px !important;
+    line-height: 17px !important;
+}
+/* Nav End*/
+
+.container .col-md-2.profile{
+    margin-top: 20px;
+    background-color: #dcdcdc;
+    border: 1px solid;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    box-shadow: inset 0px 0px 6px 0px;
+    padding-top: 10px;
+}
+.col-md-2.profile .col-sm-12 img {
+    width: 43%;
+    margin-left: 33px;
+}
+.col-md-2.profile .col-sm-12 h4 a {
+    padding-left: 25px ;
+    font-size: 20px;
+    color: #778237;
+    font-family: Adamina;
+    font-weight: bold;
+}
+
+.col-md-2.profile .col-sm-12.Calendar img {
+    padding-left: 1px;
+    width: 47%;
+}
+.col-md-2.profile .col-sm-12.Inbox img {
+    padding-left: 1px;
+    width: 44%;
+}
+.col-md-2.profile .col-sm-12.Help img {
+    padding-left: 1px;
+    width: 52%;
+}
+.col-md-2.profile .col-sm-12.Help h4 a {
+    padding-left: 48px;
+}
+.col-md-2.profile .col-sm-12.Inbox h4 a {
+    padding-left: 40px;
+}
+.col-sm-12.Calendar h4 a {
+    padding-left: 65px;
+}
+/*account info professor page css start*/
+.container-fluid {
+    background-color: #330033;
+    color: #fff;
+}
+.container-fluid h4 {
+    color: #fff;
+	float:right;
+}
+.container-fluid h4 a{
+    color: #fff;
+	float:right;
+}
+/*img start*/
+a.navbar-brand img {
+    width: 26%;
+    float: left;
+    padding-left: 17px;
+}
+/*img end*/
+/*account info professor page css End*/
+
+/* Profile sidebaar end*/
+
+
+
+/* cancel-confirmation page css start  */
+.Confirmation {
+    margin-top: 45px;
+    background-color: dcdcdc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border: 1px solid #dcdcdc;
+    font-family: Adamina;
+    box-shadow: 0px 0px 9px 0px #dcdcdc;
+    margin-left: 70px;
+    text-align: center;
+    color: #778237;
+	 font-weight: bolder;
+}
+.Confirmation h1 {
+    color: #222;
+}
+.Confirmation hr{
+border-top: 1px solid #827e7e;
+}
+.Confirmation .col-sm-12 {
+    background: #bdbcbc70;
+    border-radius: 17px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    margin-bottom: 50px;
+}
+/* Account End*/
+
+
+
+/* cancel-confirmation page css End   */
+
+
+/* unblock-page css start  */
+.unblock {
+    margin-top: 60px;
+    background-color: dcdcdc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border: 1px solid #dcdcdc;
+    font-family: Adamina;
+    font-weight: bolder;
+    box-shadow: 0px 0px 9px 0px #dcdcdc;
+    margin-left: 70px;
+    text-align: center;
+	color: #cc37d69e;
+}
+.unblock h1{
+	color:#222;;
+}
+.unblock hr{
+border-top: 1px solid #827e7e;
+}
+.unblock .col-sm-12 {
+    background: #bdbcbc70;
+    border-radius: 17px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    margin-bottom: 50px;
+}
+.col-md-10 h1 {
+    text-align: center;
+    color: #393939;
+	font-family: Adamina;
+}
+/* Account End*/
+
+/*  Button start */
+.col-sm-12 button#yes {
+    background-color: #eee;
+    border-radius: 26px;
+    padding: 3px 36px;
+    font-size: 20px;
+    font-family: Adamina;
+    font-weight: bold;
+	color:#778237;
+}
+.col-sm-12 button#no{
+    background-color: #eee;
+    margin-top: 8px;
+    border-radius: 26px;
+    padding: 3px 36px;
+    font-size: 20px;
+    font-family: Adamina;
+    font-weight: bold;
+	color: #c51f1fc4;
+}
+/*Button End */
+
+/* Unblock-page css End   */
+
+
+/* Help page page css Start   */
+
+.col-md-9.Help{
+	 margin-top: 43px ;
+    background-color: dcdcdc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border: 1px solid #dcdcdc;
+    font-size: 16px;
+    font-weight: bolder;
+    box-shadow: 0px 0px 9px 0px #dcdcdc;
+    margin-left: 70px;
+    text-align: center;
+    font-family: Adamina;
+}
+.col-md-9.Help .col-sm-12 {
+    background: #bdbcbc70;
+    border-radius: 17px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    margin-bottom: 73px;
+}
+.col-md-9.Help hr{
+border-top: 1px solid #827e7e;
+}
+button#Submit {
+    border-radius: 12px;
+    margin-top: 1% !important;
+    padding: 0px 73px;
+    background-color: #918f8f;
+    color: #222;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: Adamina;
+	margin-bottom: 0%;
+}
+/* Help page css End   */
+
+
+/* cancel-mesage page css start   */
+
+
+.Cancel{
+	 margin-top: 50px ;
+    background-color: dcdcdc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border: 1px solid #dcdcdc;
+    font-family: Adamina;
+    font-weight: bolder;
+    box-shadow: 0px 0px 9px 0px #dcdcdc;
+    margin-left: 70px;
+    text-align: center;
+    color: #d62b2bb8;
+}
+.Cancel h1 {
+    color: #222;
+}
+.Cancel .col-sm-12 {
+    background: #bdbcbc70;
+    border-radius: 17px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    margin-bottom: 73px;
+}
+.Cancel hr{
+border-top: 1px solid #827e7e;
+}
+
+/* cancel-mesage page css End   */
+
+/* Inbox page css start*/
+.col-md-9.Inbox{
+	 margin-top: 45px;
+    background-color: dcdcdc;
+    padding-top: 24px;
+    padding-bottom: 24px;
+	border-radius: 17px;
+    border: 1px solid #dcdcdc;
+    font-size: 16px;
+    font-family: Adamina;
+    font-weight: bolder;
+    box-shadow: 0px 0px 9px 0px #dcdcdc;
+    margin-left: 70px;
+}
+.col-md-9.Inbox h1 {
+    text-align: center;
+}
+.col-sm-12.incoming {
+	font-size: larger;
+    background: #fff;
+    border-radius: 57px;
+	margin-bottom: 13px;
+	color: #d62b2bb8;
+}
+.col-sm-12.Cancelled{
+	background: #fff;
+    border-radius: 57px;
+    padding-bottom: 17px;
+	margin-bottom: 13px;
+	color: #d62b2bb8;
+	margin-top: 6%;
+}
+.col-md-9.inbox .col-sm-12 input[type=radio] {
+    margin: 28px 0 0;
+}
+.col-md-9.inbox hr{
+border-top: 1px solid #827e7e;
+}	
+/* inbox page css end*/
+
+/*landing page css start*/
+div#login h1 {
+    text-align: center;
+    font-style: unset;
+    font-family: none;
+    font-weight: bold;
+    color: #778237;
+    font-size: 51px;
+    line-height: 90px;
+}
+.col-md-6 .col-sm-12 img {
+    width: 88%; 
+	margin-top:70px;
+	margin-left: -134px;
+}
+
+div#create h3 {
+    font-size: 41px;
+    font-family: Adamina;
+    color: #6f3535;
+    font-weight: bold;
+	text-align: center;
+}
+div#create h5 {
+    text-align: center;
+    font-weight: bold;
+	font-size: 34px;
+}
+div#create h5 a{
+	color:#222;
+}
+button#Welcome{
+	border-radius: 12px;
+    margin-top: 3% !important;
+    padding: 5px 73px;
+    background-color: #918f8f;
+    color: #222;
+    font-weight: bolder;
+    font-size: 21px;
+    font-family: Adamina;
+}
+/*landing page css End	*/
+
+/* professor-accountinfo css start*/
+
+.Account{
+	margin-top: 45px;
+    background-color: dcdcdc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border: 1px solid #dcdcdc;
+    font-size: 16px;
+    font-family: Adamina;
+    font-weight: bolder;
+    box-shadow: 0px 0px 9px 0px #dcdcdc;
+    margin-left: 70px;	
+}
+.Account h1{
+	text-align: center;
+}
+.Account hr{
+	border-top: 1px solid #827e7e;
+}
+button#Update{
+	border-radius: 45px;
+    margin-left: 42%;
+    margin-top: 3% !important;
+    padding: 5px 44px;
+    background-color: #918f8f;
+    color: #222;
+    font-weight: bolder;
+    font-size: 21px;
+    font-family: Adamina;
+}
+
+/* Add & Edit Start */
+button {
+    background-color: #817D7D;
+    text-decoration: none;
+}
+.btn-group button a {
+    color: #000000;
+}
+.btn-group button {
+    border-radius: 49px;
+}
+.col-sm-8 input {
+    margin-top: 54px !important;
+}
+/* Add & Edit End */
+
+/* professor-accountinfo css end*/
+
+div#create {
+    margin-top: 18px !important;
+    background-color: #c4c4c4;
+    border-radius: 20px;
+    border: 1px solid;
+    font-size: 6px;
+    font-family: Adamina;
+    font-weight: bolder;
+    box-shadow: 0px 0px 9px 0px;
+}
+div#create hr{
+	border-top: 1px solid #827e7e;
+}
+
+
+/* account Create End */
+
+
+
+/* landing_page Page Css End*/
+
+
+
+/* create account page page Css Start*/
+
+div#account {
+    background-color: #c4c4c4;
+    border: 1px solid;
+    margin-top: 30px;
+    border-radius: 40px;
+}
+
+div#account h3 {
+    text-align: center;
+    font-size: 41px;
+    font-family: Adamina;
+    color: #6f3535;
+    font-weight: bold;
+}
+
+div#account {
+    font-family: Adamina;
+    color: #6f3535;
+    font-weight: bold;
+    border-color: #222;
+}
+.col-sm-10 {
+    margin-bottom: -10px;
+}
+div#account hr{
+border-top: 1px solid #827e7e;
+}
+
+/*button sart */
+
+button#btnCreateAccount {
+    border-radius: 12px;
+    background-color: #918f8f;
+    color: #222;
+    font-weight: bolder;
+    font-size: 21px;
+    font-family: Adamina;
+}
+/* button END */
+
+/* create account page page Css End*/	
+
+
+/* update_page page Css Start*/
+.col-sm-4 img {
+    width: 32%;
+}
+.Update{
+	margin-top: 42px;
+    background-color: dcdcdc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border: 1px solid #dcdcdc;
+    font-size: 16px;
+    font-family: Adamina;
+    font-weight: bolder;
+    box-shadow: 0px 0px 9px 0px #dcdcdc;
+    margin-left: 70px;	
+}
+.col-md-9.Update h1 {
+    text-align: center;
+}
+.col-sm-6 h6 {
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+input#submit {
+    background-color: #918f8f;
+    margin-top: 8px;
+    border-radius: 26px;
+    font-size: 25px;
+    font-family: Adamina;
+    font-weight: bold;
+	margin-bottom: 6%;
+}
+.col-lg-6 {
+    display: inline-flex;
+}
+.Account .col-sm-8 {
+    float: right;
+    margin-top: -62px;
+    margin-left: 0;
+}
+
+.col-md-8.Update .col-sm-8 {
+    margin-top: -22px;
+	margin-left: 43px;
+
+}
+.col-md-8.Update hr{
+border-top: 1px solid #827e7e;
+}
+.col-md-9.Update .col-lg-6 {
+    padding-bottom: 4%;
+}
+/*update_epage page Css End*/	
+
+
+
+/* calendar page for both professor and student page Css start*/
+.calendar-toolbar {
+			margin-bottom: 10px;
+			}
+.calendar-month-row {
+  height: 75px;
+}
+.col-md-9.calendar {
+    margin-left: 5%;
+}
+.calendar-prior-months-date {
+  color: #DDD;
+}
+.calendar-current-date {
+  text-align: center;
+  display: inline-block;
+  width: 115px;
+}
+
+.ui-datepicker-other-month .ui-state-default { color: #565656; }
+
+
+table.ui-datepicker-calendar {
+    width: 100%;
+}
+td, th {
+    padding-bottom: 1px !important;
+    border: 1px solid;
+    text-align: left;
+    font-size: 19px;
+    line-height: 31px;
+}
+.ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-all {
+    font-size: 21px;
+}
+
+th {
+    text-align: center !important;
+}
+
+
+.col-md-8.calendar {
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #c4c4c4;
+}	
+div#calendar {
+    padding-top: 27px;
+}
+.fc-row.fc-week.fc-widget-content.fc-rigid {
+    height: 27% !important;
+	border:1px solid #222 !important;
+}
+.fc-scroller.fc-day-grid-container {
+    height: 368px !important;
+}
+button.fc-agendaWeek-button.fc-button.fc-state-default.fc-corner-right {
+    border-radius: 0px;
+	background: #c4c4c4;
+}
+button.fc-month-button.fc-button.fc-state-default.fc-corner-left.fc-state-active {
+    border-radius: 0px;
+	background: #c4c4c4;
+}
+button.fc-prev-button.fc-button.fc-state-default.fc-corner-left {
+    border-radius: 0;
+	background: #c4c4c4;
+	margin-right: 35px;
+}
+button.fc-next-button.fc-button.fc-state-default.fc-corner-right {
+    border-radius: 0px;
+	background: #c4c4c4;	
+}
+button.fc-today-button.fc-button.fc-state-default.fc-corner-left.fc-corner-right {
+    background: #c4c4c4;
+}
+.fc-center h2 {
+    font-size: 20px !important;
+}
+.fc-content {
+    background: #B0BE58;
+}
+/* calendar page for both professor and student page Css End*/	
+
+
+F
+
+@media (max-width: 768px){
+.col-sm-12 img {
+    width: 45%;
+    margin-left: 33px;
+}
+.col-sm-12 h4 a {
+    padding-left: 28px
+}
+.col-sm-12.Calendar img {
+    width: 47%;
+}
+.col-sm-12.Calendar h4 a {
+    padding-left: 20px;
+}
+.col-sm-12.Inbox img {
+    width: 49%;
+}
+.col-sm-12.Inbox h4 a {
+    padding-left: 40px;
+}
+.col-sm-12.Help img {
+    width: 52%;
+}
+.col-sm-12.Help h4 a {
+    padding-left: 47px;
+}
+button#Welcome {
+    border-radius: 24px;
+    margin-left: 19%;
+    margin-top: 4% !important;
+    margin-bottom: 2%;
+    padding: 5px 58px;
+}
+.col-md-3.profile {
+    margin-left: 1px;
+}
+.container .col-md-2.profile {
+    margin-left: 13%;
+}
+.col-md-2.profile .col-sm-12 img {
+    width: 53%;
+    margin-left: 10px;
+}
+.col-md-2.profile .col-sm-12 h4 a {
+    padding-left: 4px;
+    font-size: 13px;
+}
+.col-md-2.profile .col-sm-12.Inbox img {
+    padding-left: 1px;
+    width: 55%;
+}
+.col-md-2.profile .col-sm-12.Inbox h4 a {
+    padding-left: 13px;
+}
+.col-md-2.profile .col-sm-12.Help img {
+    width: 56%;
+}
+.col-md-2.profile .col-sm-12.Help h4 a {
+    padding-left: 12px;
+}
+.col-md-2.profile .col-sm-12.Help h4 a {
+    padding-left: 12px;
+}
+.container .col-md-2.profile {
+    border-top-right-radius: 39px;
+    border-bottom-left-radius: 39px;
+}
+button#Submit {
+    margin-left: 33%;
+    padding: 5px 57px;
+}
+input#submit {
+    margin-left: 23%;
+    padding: 3px 85px;
+}
+.col-sm-4 {
+    margin-left: 48%;
+}
+.col-md-8.Update .col-sm-8 {
+    margin-left: 264px;
+    margin-bottom: 24px;
+}
+}

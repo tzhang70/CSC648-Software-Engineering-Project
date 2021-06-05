@@ -1,0 +1,57 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="CSS/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<div class="col-md-12">
+				<a class="navbar-brand" href="Index_Page.html"><img src="icon_images/logo.png" Alt="logo"></a>
+			</div>
+            <p> &nbsp; </p>
+            <p> &nbsp; </p>
+
+	</nav>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12" id="account">
+            <h3>Create Account</h3><hr><hr>
+            <form action="create_user.php" method="post">
+                <div class="col-sm-2">Name</div>
+                <div class="col-sm-10"><input type="text" Name="Name" class="form-control"><br></div>
+                
+                <div class="col-sm-2">Email</div>
+                <div class="col-sm-10"><input type="text" Name="Email" class="form-control"><br></div>
+                
+                <div class="col-sm-2">Are You</div>
+                <div class="col-sm-10"><select Name="Type" class="form-control">
+                    <option Value ="Student">Student</option>
+                    <option Value ="Professor">Professor</option>
+                </select><br></div>
+                
+                <div class="col-sm-2">Major</div>
+                <div class="col-sm-10"><input type="text" Name="Major" class="form-control"><br></div>
+                
+                <div class="col-sm-2">Password</div>
+                <div class="col-sm-10"><input type="Password" Name="Password" class="form-control"><br></div>
+                
+                <div class="col-sm-2">Confirm Password</div>
+                <div class="col-sm-10"><input type="Password" Name="ConfirmPassword" class="form-control"><br></div>
+                
+                <input type="submit" Name="Submit" id="Create">
+                    </form>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

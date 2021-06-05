@@ -1,0 +1,96 @@
+<html>
+    
+		
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="CSS/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+</head>
+
+<body>
+	<div class="container-fluid">
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<div class="col-md-12">
+				<a class="navbar-brand" href="homepage.html"><img src="icon_images/logo.png" Alt="logo"></a>
+				<h2>Welcome Daniel Tomasevich,<a href="Index_Page.html">Logout</a></h2>
+			</div>
+	</nav>
+</div>
+
+
+<div class="container">
+	<div class="row">
+	<!---Start Information ---->
+		<div class="col-md-3">
+			<div class="col-sm-12">
+				<img src="icon_images/61205.svg" Alt="Account">
+				<h4><a href="account_info_professor.html">Account</a></h4>
+			</div>
+
+			<div class="col-sm-12">
+				<img src="icon_images/130304.svg" Alt="Update">
+				<h4><a href="Update_Availability.html">Courses</a></h4>
+			</div>
+			
+			<div class="col-sm-12 Calendar">
+				<img src="icon_images/1571653.svg" Alt="Calendar">
+				<h4><a href="Professor_Calander.html">Calendar</a></h4>
+			</div>
+			
+			<div class="col-sm-12 Inbox">
+				<img src="icon_images/1602840.svg" Alt="Inbox">
+				<h4><a href="#">Inbox</a></h4>
+			</div>
+			
+			<div class="col-sm-12 Help">
+				<img src="icon_images/1662046.svg" Alt="Help">
+                    <h4><a href="help.html">Help</a></h4>
+			</div>
+		</div>
+	<!---End Information ---->
+	<!---End Information ---->
+            <div class="col-md-8">
+            <h1>Help</h1>
+            <hr><hr>
+				<?php
+				
+				if($_POST["submit"]) {
+					$recipient="t.zhang70@yahoo.com";
+					$subject=$_POST["subject"];
+					$senderEmail=$_POST["senderEmail"];
+					$message=$_POST["message"];
+					$sender=$_POST["sender"];
+					$mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
+					mail($recipient, $subject, $mailBody, "From: $sender $senderEmail");
+				}
+				?>
+                <form method="post" action="">
+					<label>Name:   </label>
+					<input name="sender">
+					<br>
+                    <label>Email:   </label>
+                    <input name="senderEmail">
+                    <br>
+                    <label>Subject:</label>
+                    <input name="Subject">
+                    <br>
+                    <label>Message:</label>
+                    <textarea rows="5"  name="message"></textarea>
+                    <br>
+                    <input type="submit" name="submit">
+                </form>
+				
+
+
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
